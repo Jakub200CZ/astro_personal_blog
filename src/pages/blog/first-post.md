@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "First post"
+title: "What VS Code extensions do i use?"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 08 2022"
+pubDate: "Jul 17 2019"
 heroImage: "/placeholder-hero.jpg"
 ---
 

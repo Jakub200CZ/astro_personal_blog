@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Third post"
+title: "Something special to you"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 15 2022"
+pubDate: "Jul 19 2022"
 heroImage: "/placeholder-hero.jpg"
 ---
 

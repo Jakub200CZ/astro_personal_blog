@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Second post"
+title: "Why you must try Vue JS?"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 22 2022"
+pubDate: "Jun 01 2021"
 heroImage: "/placeholder-hero.jpg"
 ---
 
