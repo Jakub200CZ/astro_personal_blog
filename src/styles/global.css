@@ -3,17 +3,29 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+
+ :root {
+	--bg: rgba(39,39,42,255);
+	--p: rgba(211,211,212,255);
+	--title: rgba(168,85,247,255);
+	--hl: rgba(217,180,252,255);
+	--hl-txt: #606060;
+	--txt: #ffffff;
+	--link-txt: #30f8ff;
+	--quote-br: rgb(108, 108, 108);
+ }
+
 body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
 	padding: 20px;
 	max-width: 65ch;
 	text-align: left;
-	background-color: #fff;
+	background-color: var(--bg);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: var(--txt);
 }
 h1,
 h2,
@@ -23,10 +35,10 @@ h5,
 h6,
 strong,
 b {
-	color: #222;
+	color: var(--txt);
 }
 a {
-	color: #3273dc;
+	color: var(--link-txt);
 }
 nav a {
 	margin-right: 10px;
@@ -50,7 +62,7 @@ img {
 }
 code {
 	padding: 2px 5px;
-	background-color: #f2f2f2;
+	background-color: var(--hl-txt);
 }
 pre {
 	padding: 1rem;
@@ -59,8 +71,8 @@ pre > code {
 	all: unset;
 }
 blockquote {
-	border: 1px solid #999;
-	color: #222;
+	border: 1px solid var(--quote-br);
+	color: var(--txt);
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
