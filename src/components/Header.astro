@@ -4,15 +4,20 @@ import { SITE_TITLE } from '../config';
 ---
 
 <header>
-	<h2>
-		{SITE_TITLE}
-	</h2>
-	<nav>
-		<HeaderLink href="https://jakubsedlacek.xyz">Home</HeaderLink>
-		<HeaderLink href="/">Blog</HeaderLink>
-		<HeaderLink href="/blog">Posts</HeaderLink>
-		<HeaderLink href="/about">About</HeaderLink>
-	</nav>
+	<div class="container">
+		<img src="http://jakubsedlacek.xyz/img/favicon.5b333ee4.webp" alt="logo">
+		<div class="content">
+			<h2>
+				{SITE_TITLE}
+			</h2>
+			<nav>
+				<HeaderLink href="https://jakubsedlacek.xyz">Home</HeaderLink>
+				<HeaderLink href="/">Blog</HeaderLink>
+				<HeaderLink href="/blog">Posts</HeaderLink>
+				<HeaderLink href="/about">About</HeaderLink>
+			</nav>
+		</div>
+	</div>
 </header>
 <style>
 	header {
@@ -20,5 +25,13 @@ import { SITE_TITLE } from '../config';
 	}
 	h2 {
 		margin: 0.5em 0;
+	}
+
+	.container {
+		display: flex;
+	}
+
+	img { 
+		height: 100px;
 	}
 </style>
